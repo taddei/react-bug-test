@@ -10,7 +10,7 @@ var Item = React.createClass({
   },
   render: function () {
     return (
-      <li onClick={this.handleClick}>
+      <li onClick={this.handleClick} className="clickAble">
           <div>{this.props.name}</div>
       </li>
     );
